@@ -25,6 +25,7 @@
 		28A3FE762BCD77A100077C2F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28A3FE682BCD77A100077C2F /* Roboto-Regular.ttf */; };
 		28A3FE772BCD77A100077C2F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28A3FE692BCD77A100077C2F /* Roboto-Thin.ttf */; };
 		28A3FE782BCD77A100077C2F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28A3FE6A2BCD77A100077C2F /* Roboto-ThinItalic.ttf */; };
+		28A3FE7B2BCD797F00077C2F /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3FE7A2BCD797F00077C2F /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		28A3FE682BCD77A100077C2F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		28A3FE692BCD77A100077C2F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		28A3FE6A2BCD77A100077C2F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		28A3FE7A2BCD797F00077C2F /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		28A3FE5C2BCD775600077C2F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				28A3FE792BCD793D00077C2F /* Extensions */,
 				28A3FE5D2BCD777200077C2F /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				28A3FE6A2BCD77A100077C2F /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		28A3FE792BCD793D00077C2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28A3FE7A2BCD797F00077C2F /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			files = (
 				285D94152BC5B065008345D9 /* ViewController.swift in Sources */,
 				285D94112BC5B065008345D9 /* AppDelegate.swift in Sources */,
+				28A3FE7B2BCD797F00077C2F /* UIFont+Extension.swift in Sources */,
 				285D94132BC5B065008345D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -339,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
